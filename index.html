@@ -2,94 +2,189 @@
 <html lang="en-US">
 	<head>
 		<title>Home | Pibolib</title>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="media/favicon.ico">
 		</style>
 	</head>
-	<body class="w3-dark-gray" style="padding-left:18.75%;padding-right:18.75%;background-image:url(media/cubikasitebg.png);background-repeat:no-repeat;background-size:cover">
-		<header class="w3-container w3-blue" id="top">
-			<div>
-				<img src="media/templogo.png" alt="Temporary Logo" style="float:left">
-				<h2 style="padding-right:20px;text-align:right">
-					<a href="index.html#games" style="text-decoration:none">Games</a> | <a href="index.html#media" style="text-decoration:none">Media</a> |  <a href="about.html" style="text-decoration:none">About</a>
-				</h2>
-			</div>
-		</header>
-		<main class="w3-container w3-round" style="background-color:rgba(0,0,0,0.25)">
-			<div class="w3-content w3-display-container" style="width:100%;height:800px;padding-top:45px">
-				<img src="media/indexslides/unnamed.png" class="slideshow" style="width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">
-				<img src="media/indexslides/cubika.png" class="slideshow" style="width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">
-				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-			     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-				<script src="indexslideshow.js"></script>
-			</div>
-			<h1 style="text-align:center">
-				Nostalgia Powered Indie Game Development.
-			</h1>
-			<br>
-			<h2 style="text-align:center" id="games">
-				GAMES
-			</h2>
-			<div>
-				<ul style="padding-left:15%;padding-right:15%">
-					<li>
-						<h3>In Development:</h3>
-						<ul>
-							<li class="w3-tooltip indexlist">
-								<a href="cubika.html">Cubika</a>
-								<span class="w3-text">(<i>A puzzle game I'm currently working on. Demo coming soon.</i>)</span>
-							</li>
-							<li class="w3-tooltip indexlist">
-								Unnamed Summer Project
-								<span class="w3-text">(<i>An arcade styled game I'm currently working on for a school project.</i>)</span>
-							</li>
-						</ul>
+	<body style="background-image:url(media/cubikasitebg.png);background-repeat:no-repeat;background-size:cover">
+		<div class="foreground fixed-top">
+        <div class="foreground-container">
+            <div class="foreground-container-content"></div>
+        </div>
+        <a class="btn btn-fab text-light modal-back-nav d-flex justify-content-center align-items-center" style="position: absolute; top: 30px; right: 30px">
+            <span class="oi oi-x sliver-back-icon"></span>
+        </a>
+    </div>
+		<nav class="navbar navbar-expand-lg" id="top" style="background-color:#0041cc">
+			<a class="navbar-brand" href="#"><img src="media/templogo.png" alt="Temporary Logo"></a>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item navlistitem">
+						<a class="nav-link" href="#games">Games</a>
 					</li>
-					<li>
-						<h3>2019:</h3>
-						<ul>
-							<li class="indexlist">
-								January: <span class="w3-text-red">Argo Navis</span> (gm(48) #29)
-							</li>
-							<li class="indexlist">
-								April: <a href="https://pibolib.itch.io/irrats" target="_blank">IRRatS</a> (gm(48) #30)
-							</li>
-							<li class="indexlist">
-								July: <a href="https://pibolib.itch.io/dnarcher" target="_blank">DNArcher</a> (Butterscotch Shenanijam 2019 <span class="w3-text-orange">3rd Place</span>)
-							</li>
-						</ul>
+					<li class="nav-item navlistitem">
+						<a class="nav-link" href="#media">Media</a>
 					</li>
-					<li>
-						<h3>2018:</h3>
-						<ul>
-							<li class="indexlist">
-								March: <a href="https://pibolib.itch.io/jabss1" target="_blank">Just Another Boring Space Shooter</a>, <a href="https://pibolib.itch.io/jabss2" target="_blank">J.A.B.S.S. II</a>
-							</li>
-							<li class="indexlist">
-								May: <a href="https://pibolib.itch.io/wizardotw" target="_blank">Wizard of The Wastes</a>
-							</li>
-							<li class="indexlist">
-								July: <a href="https://pibolib.itch.io/dont-die-thanks-bye" target="_blank">Don't Die, Thanks Bye!</a> (gm(48) #27)
-							</li>
-							<li class="indexlist">
-								September: <a href="https://pibolib.itch.io/interstellar-stupidity" target="_blank">Interstellar Stupidity</a> (Ludum Dare 42)
-							</li>
-							<li class="indexlist">
-								October: <a href="https://pibolib.itch.io/switch-and-stack" target="_blank">Switch and Stack</a> (gm(48) #28)
-							</li>
-							<li class="indexlist">
-								December: <a href="https://pibolib.itch.io/the-affliction" target="_blank">The Affliction</a> (Ludum Dare 43)
-							</li>
-						</ul>
+					<li class="nav-item navlistitem">
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 				</ul>
 			</div>
-			<h2 style="text-align:center" id="media">
-				MEDIA
+		</nav>
+		<main class="container">
+			<br>
+			<h1 style="text-align:center">
+				<b>
+					Nostalgia Powered Indie Game Development.
+				</b>
+			</h1>
+			<br>
+			<h2 data-aos="fade-up" style="text-align:center" id="games">
+				-GAMES-
 			</h2>
+			<br>
+			<div data-aos="fade-up" class="container rounded-lg" style="padding-left:10%;padding-right:10%;background-color:#00000030">
+				<br>
+				<h2 style="text-align:center">
+					In Development
+				</h3>
+				<br>
+				<div class="game-flexbox">
+					<div class="card rounded-sm game-current">
+						<div class="card-body" style="background-image:url(media/indexslides/cubika.png);background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h3>
+								Cubika
+							</h3>
+						</div>
+					</div>
+					<div class="card rounded-sm game-current">
+						<div class="card-body" style="background-image:url(media/indexslides/unnamed.png);background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h3>
+								Unnamed Summer Project
+							</h3>
+						</div>
+					</div>
+				</div>
+				<br>
+				<h3 style="text-align:center">
+					2019
+				</h3>
+				<br>
+				<div class="game-flexbox">
+					<div class="card rounded-sm game-recent">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h3>
+								Argo Navis
+							</h3>
+						</div>
+					</div>
+					<div class="card rounded-sm game-recent">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h3>
+							  IRratS
+							</h3>
+						</div>
+					</div>
+					<div class="card rounded-sm game-recent">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h3>
+								DNArcher
+							</h3>
+						</div>
+					</div>
+				</div>
+				<br>
+				<h3 style="text-align:center">
+					2018
+				</h3>
+				<br>
+				<div class="game-flexbox">
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								J.A.B.S.S.
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								J.A.B.S.S. II
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								Wizard of The Wastes
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								Don't Die, Thanks Bye!
+
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								Interstellar Stupidity
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								Switch and Stack
+							</h4>
+						</div>
+					</div>
+					<div class="card rounded-sm game-old">
+						<div class="card-body" style="background-color:gray;background-size:cover;background-position:2%">
+						</div>
+						<div class="card-footer" style="background-color:#0041cc">
+							<h4>
+								The Affliction
+							</h4>
+						</div>
+					</div>
+				</div>
+				<br>
+			</div>
+			<br>
+			<h2 style="text-align:center" id="media">
+				-MEDIA-
+			</h2>
+
 			<div>
-				<table class="w3-table" style="padding-left:20%;padding-right:20%;margin-left:auto;margin-right:auto">
+				<table class="table table-borderless" style="padding-left:20%;padding-right:20%;margin-left:auto;margin-right:auto">
 					<tr>
 						<th style="width:25%;text-align:center">
 							Twitter @pibolib
@@ -102,43 +197,50 @@
 							YouTube
 							<br>
 							<a href="https://www.youtube.com/channel/UCyUev5i-I1512zRK5pB0FVw" target="_blank">
-								<img src="media/youtube.png" width="71" height="50" alt="YouTube"> 
+								<img src="media/youtube.png" width="71" height="50" alt="YouTube">
 							</a>
-						</th>	
+						</th>
 						<th style="width:25%;text-align:center">
 							itch.io
 							<br>
 							<a href="https://pibolib.itch.io/" target="_blank">
-								<img src="media/itch.svg" width="50" height="50" alt="itch.io"> 
+								<img src="media/itch.svg" width="50" height="50" alt="itch.io">
 							</a>
 						</th>
 						<th style="width:25%;text-align:center">
 							GitHub
 							<br>
 							<a href="https://github.com/pibolib" target="_blank">
-								<img src="media/github.png" width="50" height="50" alt="GitHub"> 
+								<img src="media/github.png" width="50" height="50" alt="GitHub">
 							</a>
-						</th>	
+						</th>
 					</tr>
 				</table>
 				<br>
 				<p style="text-align:center">
 					Please do not be afraid to contact me on any of these platforms. I am most likely to respond to a Twitter reply or DM.
-					I plan on setting up a Discord server in the future, so once that is up, you can contact me there as well. 
+					I plan on setting up a Discord server in the future, so once that is up, you can contact me there as well.
 					Email support coming soon.
 				</p>
 			</div>
-			<br>	
+			<br>
 		</main>
-		<footer class="w3-container" id="bottom" style="padding:16px;background-color:rgb(23, 23, 23)">
+		<footer class="container" id="bottom" style="background-color:rgb(23, 23, 23)">
 			<div>
 				<p style="padding-left:16px;float:left">
 					Developed and Maintained by Jonathan Ouf. ©2020 pibolib
 				</p>
 				<p style="padding-right:16px;float:right;text-align:right">
-					V17
-				</p>	
+					V18
+				</p>
 			</div>
+			<script
+			  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+			  crossorigin="anonymous"></script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+			<script src="main.js"></script>
 		</footer>
 	</body>
 </html>
