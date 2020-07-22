@@ -119,14 +119,12 @@ function transitionHero(el) {
     //move the foreground up in elevation
     $(".foreground").css("z-index", 10).css("display", "inline-block").css('opacity', 1).css('transition', 'opacity 1s')
 
-
     //Hide the Navbar
     var navbar = $(".navbar")
     navbar
         .removeClass("navbar-open")
         .removeClass("navbar-close")
         .addClass("navbar-hide")
-
     //sets body to overflow hidden so that scroll is disabled
 
     //Add class to move modal to top

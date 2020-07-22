@@ -34,6 +34,10 @@ th {
 	font-size: 16pt;
 	color: white;
 }
+
+hr {
+	background-color:white
+}
 .navlistitem {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15pt;
@@ -75,6 +79,9 @@ th {
     height: 240px;
     width: 100%
 }
+.sliver-body {
+	display: none
+}
 .modal-expand {
     top: 0 !important;
     left: 0 !important;
@@ -91,7 +98,13 @@ th {
 .nav-item>a{
 	color:white
 }
-
+.game-card {
+	background-color:#0041cc;
+	transition: background-color 0.3s
+}
+.game-card:hover {
+	background-color: #5688f5
+}
 .game-current {
   margin:30px;
 	height:350px;
