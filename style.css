@@ -107,20 +107,20 @@ hr {
 }
 .game-current {
   margin:30px;
-	height:350px;
-	width:250px;
+	height:300px;
+	width:400px;
 }
 
 .game-recent {
   margin:20px;
-	height:300px;
-	width:200px;
+	height:220px;
+	width:280px;
 }
 
 .game-old {
   margin:15px;
-	height:250px;
-	width:175px;
+	height:200px;
+	width:250px;
 }
 
 .game-flexbox {
