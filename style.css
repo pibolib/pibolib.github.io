@@ -99,7 +99,10 @@ hr {
     transition: top .5s, left .5s, width .5s, height .5s, max-width .5s !important;
 }
 
-.nav-item>a{
+.navbar-color {
+	background-color: #0041cc
+}
+.nav-item>a{ 
 	color:white
 }
 .game-card {
