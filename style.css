@@ -128,3 +128,9 @@ hr {
 	justify-content:center;
 	flex-wrap:wrap
 }
+
+.pro {
+  margin:30px;
+	height:300px;
+	width:400px;
+}
