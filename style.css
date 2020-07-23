@@ -36,7 +36,11 @@ th {
 }
 
 hr {
-	background-color:white
+	background-color:white;
+}
+.indent {
+	padding-left:5%;
+	padding-right:5%;
 }
 .navlistitem {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -134,3 +138,4 @@ hr {
 	height:300px;
 	width:400px;
 }
+
