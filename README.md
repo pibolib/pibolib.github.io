@@ -1,2 +1,2 @@
 # pibolib.github.io
-pibolib site
+Pibolib's website. https://www.pibolib.xyz
