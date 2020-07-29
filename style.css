@@ -142,3 +142,8 @@ hr {
 	width:400px;
 }
 
+.basesitebg {
+	background-image:url(media/cubikasitebg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
