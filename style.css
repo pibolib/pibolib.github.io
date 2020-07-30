@@ -98,3 +98,12 @@ hr {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+.center {
+	text-align: center
+}
+.blog-post {
+	padding:5%
+}
+.blog-post-header {
+	padding:15px
+}
