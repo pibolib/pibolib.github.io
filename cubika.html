@@ -10,118 +10,26 @@
 		<link rel="icon" href="media/favicon.ico">
 	</head>
 	<body class="basesitebg">
-		<nav class="navbar navbar-expand-lg navbar-color" id="top">
-			<a class="navbar-brand" href="#"><h1>Cubika</h1></a>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item navlistitem">
-						<a class="nav-link" href="index.html">Back</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
 		<main class="container">
 			<br>
+			<div style="display:flex;justify-content:center; padding:32px">
+				<img src="media/cubika/logo.png" alt="Cubika Logo" width=384 height=128 style="image-rendering: crisp-edges;">
+			</div>
+			
 			<h2 style="text-align:center;padding-left:10%;padding-right:10%">
 				Cubika is a puzzle game about making squares.
 			</h2>
 			<br>
-			<hr>
-			<h3 style="text-align:center" id="overview">
-				-Overview-
-			</h3>
+			<a href="https://twitter.com/pibolib">
+				<h3 style="text-align:center;padding-left:10%;padding-right:10%">
+					Follow Development @pibolib
+				</h3> 
+			</a>
 			<br>
-			<div>
-				<img src="media/cubika/overview.png" style="float:left;margin-left:5%;padding-right:5%">
-				<p style="padding-left:10%;padding-right:10%;text-align:right">
-					At its most basic level, Cubika is a game about making squares.
-					You can make squares to get a high score, defeat enemies, clear objectives, and much more.
-					<br>
-					<br>
-					There are many modes for you to play through, each with its own goals and gameplay differences.
-					<br>
-				</p>
-				<ul style="padding-left:10%;padding-right:10%;text-align:left">
-					<li>
-						Aim for a high score in <b>ENDLESS</b> mode.
-					</li>
-					<li>
-						Clear set boards in <b>PUZZLE</b> mode.
-					</li>
-					<li>
-						Fight against enemies and explore a labyrinth in <b>DUNGEON</b> mode.
-					</li>
-					<li>
-						Fight against other players (locally) in <b>BATTLE</b> mode.
-					</li>
-					<li>
-						Try to get the highest score in 3 minutes in <b>SCORE ATTACK</b> mode.
-					</li>
-				</ul>
-			</div>
-			<br>
-			<hr>
-			<div>
-				<h3 style="text-align:center" id="howtoplay">
-					-How to Play-
-				</h3>
-				<div>
-					<video autoplay muted loop width="25%" style="margin-left:5%;margin-right:5%;float:left;">
-						<source src="media/cubika/cubikademo.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-					<p style="padding-left:10%;padding-right:10%;text-align:right">
-						You start with a board filled with pieces. Your goal is to maximize the amount of points you can receive from clearing them.
-						If you make a square out of the pieces of the same color by moving them together, you can trigger the square to clear it.
-						<br>
-						<br>
-						If you clear many squares in a row without moving pieces, a combo will start, increasing the amount of points you get per square.
-						Also, you can make larger squares that give a larger base. Aim for a combination of both to maximize your score.
-						<br>
-						<br>
-						If you clear all pieces of a certain color, or all pieces in general, you will be rewarded with many more points.
-					</p>
-				</div>
-				<br>
-				<div>
-					<video autoplay muted loop width="25%" style="margin-left:5%;margin-right:10%;float:right;">
-						<source src="media/cubika/losedemo.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-					<p style="padding-left:5%;padding-right:5%">
-						<br>
-						Every few seconds, a new row of pieces will fall from the sky. If you attempt to clear something that cannot be cleared, a new row of pieces might be forced upon you.
-						As you keep playing, pieces will come faster and faster. If a piece cannot land on the 10x10 grid, then it's game over.
-						<br>
-						<br>
-						Keep your board clean and keep your combos and clears large, and a high score will soon be yours.
-						<br>
-					</p>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-			</div>
-			<br>
-			<hr>
-			<div>
-				<h3 style="text-align:center" id="howtoplay">
-					-Download-
-				</h3>
-				<p style="padding-left:5%;padding-right:5%">
-					Alas, you cannot get the game yet. A demo is planned for release in the near future, but there is much more that I plan on adding to the game before it's final release. The demo will have a sizeable chunk of content, but the game will be in development for a <b>much</b> longer time, and its final release will be a paid game.
-					<br>
-					<br>
-					For the time being, you can follow the development of the game on my <a href="https://twitter.com/pibolib">Twitter</a> page.
-					<br>
-					<br>
-					Alternatively, if you want to see some more footage, then <a href="https://www.youtube.com/playlist?list=PLN8RvyXx3vpHlSaRnPSqbyx4URUEnL8DI" target="_blank">here</a> is a playlist of Cubika footage on YouTube. (even some footage of the old version, made in GameMaker Studio 2!)
-					<br>
-					<br>
-					Thirdly, there's always the soundtrack that I am working on along with everything, which you can see <a href="music.html#cubika">here</a>.
-				</p>
+			<div class="container" style="display:flex;justify-content:center;">
+				<video width=412 height=424 controls autoplay muted>
+					<source src="media/cubika/cubikagameplay.mp4" type="video/mp4">
+				</video>
 			</div>
 			<br>
 		</main>
@@ -130,6 +38,11 @@
 				<p style="padding-left:16px;float:left">
 					Developed and Maintained by Jonathan Ouf. ©2020 pibolib
 				</p>
+				<a href="index.html">
+					<p style="padding-left:16px;float:right">
+						Back to pibolib home
+					</p>
+				</a>
 			</div>
 			<script
 			  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
