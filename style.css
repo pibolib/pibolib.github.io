@@ -1,109 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/open-iconic@1.1.1/font/css/open-iconic-bootstrap.min.css');
-body {
-	position: relative;
-}
 p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 13pt;
+	font-size: 24pt;
 	color: white;
 }
-h1 {
+h1, h2, h3, h4{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 }
-h2 {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
+h1{
+	font-size:40pt
 }
-h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
-}
-h4 {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
-}
-li {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 13pt;
-	color: white;
-}
-th {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16pt;
-	color: white;
-}
-
-hr {
-	background-color:white;
-}
-.indent {
-	padding-left:5%;
-	padding-right:5%;
-}
-.navlistitem {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15pt;
-	color: white;
-}
-.indexlist {
-	font-size: 14pt
-}
-.navbar-color {
-	background-color: #0041cc
-}
-.nav-item>a{ 
-	color:white
-}
-.game-card {
-	background-color:#0041cc;
-	transition: background-color 0.3s
-}
-.game-card:hover {
-	background-color: #5688f5
-}
-.game-current {
-  margin:30px;
-	height:300px;
-	width:400px;
-}
-
-.game-recent {
-  margin:20px;
-	height:220px;
-	width:280px;
-}
-
-.game-old {
-  margin:15px;
-	height:200px;
-	width:250px;
-}
-
-.game-flexbox {
-	display:flex;
-	justify-content:center;
-	flex-wrap:wrap
-}
-
-.pro {
-  margin:30px;
-	height:300px;
-	width:400px;
-}
-
-.basesitebg {
-	background-image:url(media/cubikasitebgsmall.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.center {
-	text-align: center
-}
-.blog-post {
-	padding:5%
-}
-.blog-post-header {
-	padding:15px
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
