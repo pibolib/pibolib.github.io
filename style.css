@@ -5,16 +5,34 @@ p {
 	font-size: 24pt;
 	color: white;
 }
-h1, h2, h3, h4{
+
+h1, h2, h3, h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 }
-h1{
-	font-size:40pt
+
+h1 {
+	font-size: 40pt;
 }
+
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 }
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightskyblue;
+	text-decoration: none;
+}
+
+a:active {
+	color: yellow;
+	text-decoration: none;
+} 
