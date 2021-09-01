@@ -71,11 +71,12 @@ a.icon2:hover {
 }
 
 .blog-listing-post {
-	height: 3vw;
+	background-color: #00000060;
+	min-height: 5vw;
 	width: 80%;
 	padding-left: 3%;
-	padding-right: 3%;
 	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 
 .blog-post-title {
