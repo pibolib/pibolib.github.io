@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>GemStreak: Curse of the Time Machine Post-Mortem</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Pibolib's games and projects">
+		<meta name="keywords" content="game development, gamedev, pibolib, games">
+		<meta name="author" content="Jonathan Ouf">
+		<link rel="canonical" href="https://www.pibolib.xyz/">
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="icon" href="../../media/favicon.ico">
+		</style>
+	</head>
+	<body style="background-image:url(../../media/sitebg.png);background-size:auto;background-repeat:no-repeat;">
+		<main>
+            <h1 class="blog-post-title">
+                GemStreak: Curse of the Time Machine Post-Mortem
+            </h1>
+            <p class="blog-post-date">
+                2021, September 2
+            <p>
+            <div class="blog-post-main">
+                <p>
+                    I’m not going to lie, I’m pretty proud of GemStreak. Despite how poorly it did in ratings, I think that it is possibly one of my best games to date. 
+                </p>
+                <p>
+                    This post-mortem will be done in three parts. Part I will discuss the time leading up to the game jam, preparation work, and the like. Part II will discuss the development of the game, and Part III will discuss the release and aftermath.
+                </p>
+                <h2>
+                    Part I: The Buildup
+                </h2>
+                <p>
+                    I decided to bring up the idea of doing a game jam with two people who are good friends of mine, Zyxflames, and Biinoo. We wanted to do a jam that would give us a good amount of time to work, and the Godot Wild Jam did just that. We had about 9 days to get the game done.
+                </p>
+                <p>
+                    We divided the work as follows: myself on programming, art, ingame music, and sound effects, Zyxflames on writing, and Biinoo on menu music. Initially, I planned on having Zyxflames on some programming work as well, but I got too lazy and didn’t want to fiddle around with Git more than I was already.
+                </p>
+                <p>
+                    We all got together in a Discord call once the theme was announced, and got to work. 
+                </p>
+                <h2>
+                    Part II: Development
+                </h2>
+                <p>
+                    Day 1 was pretty uneventful, we got the initial ideas down and then I started to make a prototype. We had a pretty buggy prototype going, mostly because I decided to use physics at first. Godot physics on a small scale are pretty buggy, and we realized that pretty quickly. Starting from the earliest parts of development, we encountered one problem that would plague us until we started playtesting- what to call the dang thing. Fortunately, at this point, there wasn’t much of a game to talk about so we didn’t worry about the game name for the time being, and I focused on developing the idea while everyone else did their work.
+                </p>
+                <p>
+                    Day 2 is where the idea started to develop into a proper game. The main gameplay was in, and I spent a bit time working on some polish, including the clear effects and score popups, along with the UI. Also, I implemented the first BGM track, which I spent some time on in between development bits. The story was starting to form, and the game was already looking presentable.
+                </p>
+                <p>
+                    On day 3, I fixed a rather pesky bug where occasionally pieces would overwrite each other when locking into place after falling down. This was done by giving pieces many places to lock into place in. Additionally, the tweet I made showcasing our development progress had managed to get pretty far out there, which made me realize something. No one understood how this game worked at a glance. To some degree, that is fine, but I had to address the issue to some degree. The second BGM track was finished and implemented, and the menu BGM was finished as well. 
+                </p>
+                <p>
+                    On day 4, I came up with a partial solution to the understanding problem, and I added a line counter to make it clear to people that the goal was to make lines. This didn’t end up solving the problem, and I’ll explain why later. I did a development stream that day which was surprisingly productive. I started working on backgrounds and critical features like pausing. 
+                </p>
+                <p>
+                    Day 5 came by, and we started to slow down a bit. To be fair, the game was mostly finished by that point. We added little buttons to assist with touchscreen play, and we worked on some bugfixing. The rest of the menu BGM was coming along nicely, and the story ideas were mostly down.
+                </p>
+                <p>
+                    Day 6 was a big day, we implemented the story levels, and then added a saving mechanic for unlocking levels and storing the endless high scores. The main menu was also designed today. I used the Godot 9-slice node instead of the built-in buttons because I didn’t want to fiddle around with the styling elements in Godot. I’m sure they’re great, I just couldn’t be bothered to use them. I finished another song, the third BGM track. This one was planned to be the third one that plays ingame, until I made a song that fit that part better. 
+                </p>
+                <p>
+                    Past day 6, nothing particularly notable happened, except for the implementation of the story, the attempt at making a tutorial, the rest of the BGM being implemented, and playtesting and tweaking of the story levels. When we published the game, I almost forgot to turn off the debug feature that makes levels beatable in 1 point.
+                </p>
+                <h2>
+                    Part III: The Aftermath
+                </h2>
+                <p>
+                    Minus that little hiccup, the game was finished, and all we had to do was sit and wait. By that, I mean we set out to see how everyone else did. There was a pretty big range of skill, and there were some games that looked and played  really well. Comments on our game were looking pretty good, until we noticed that someone reported that a bug had snuck into the final release version. It’s a bug that I thought I fixed in which a piece can fall through the floor and kill the player instantly. That was a bummer, but I still thought that the game had enough of a chance to make it somewhere in the jam. I promoted it as well as I could, played and commented on a good amount of other games, and then the results came out, and it was a complete and utter failure. 
+                </p>
+                <p>
+                    I believe that I understand why the game didn’t do very well. The gameplay loop was fun, and the endless mode could be addicting, but the main gameplay was too difficult to understand and the tutorial was not helpful. If I made a level-based tutorial that guided the player through the goals of the game, the player would be able to go into the story with a much better understanding of the game’s mechanics.
+                </p>
+                <p>
+                    The story is nice, the music is nice, I’m proud of the graphics I made, and I really enjoyed playing the game while I was developing it, but I think the difficulty curve was too high for what people wanted in a jam game, and the concepts of the game were too hard to understand and turned some players off from the game. 
+                </p>
+                <p>
+                    I think that if I released the game as a standalone game and acquired ratings from players, it would do better than how it did in the jam. For those interested, the game does have a good two hours or so of gameplay, and enough replay value from the later levels and the endless mode to keep people interested for a while after. The problem with designing the game like that, is that it’s completely different from what people want in a jam game. Jam games are usually picked up, played for 5 minutes, rated, and then forgotten. 
+                </p>
+                <h2>
+                    Closing Thoughts
+                </h2>
+                <p>
+                    I am considering picking up the game again, fixing it up, and then shipping a post-jam version. Honestly, that may be the best way to get something out of this, because the jam results for the product we created are, well, unsatisfying. Check my Twitter for more details on that front, if such a development occurs.
+                </p>
+            </div>
+		</main>
+        <p style="text-align:center;color:rgba(255,255,255,0.5)">
+            © Jonathan Ouf / pibolib
+        </p>
+	</body>
+</html>

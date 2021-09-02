@@ -74,9 +74,11 @@ a.icon2:hover {
 	background-color: #00000060;
 	min-height: 5vw;
 	width: 80%;
-	padding-left: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
+	margin-bottom: 2vw;
 }
 
 .blog-post-title {
@@ -94,6 +96,9 @@ a.icon2:hover {
 	padding-left: 5vw;
 	padding-right: 5vw;
 	padding-bottom: 3vw;
+	text-indent: 2vw;
+}
+.blog-year {
 	text-indent: 2vw;
 }
 .site-footer {
