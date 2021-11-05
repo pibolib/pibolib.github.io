@@ -1,4 +1,4 @@
 # pibolib.github.io
 Pibolib's website. https://www.pibolib.xyz
 
-todo: mobile compatibility, flexbox addition
+Live Version: 1.4 "Enjoy"
