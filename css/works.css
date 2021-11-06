@@ -1,0 +1,33 @@
+.work {
+    width: 80%;
+    margin-top: 30px;
+    background-color: #00000060;
+    min-height: 200px;
+}
+
+.indev {
+    background-color: #42000060;
+}
+.work-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: lightskyblue;
+    font-size: 20pt;
+}
+.work-date {
+    margin-top: -20px;
+    margin-bottom: -13px;
+    color: white;
+    padding-left: 30px;
+    font-size: 15pt;
+}
+.work ul {
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    display: block;
+    line-height: 1.5;
+}
+.work-link {
+    color: lightskyblue;
+}

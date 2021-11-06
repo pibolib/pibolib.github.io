@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+
+:root {
+    --sidebar-width: 18%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.sidebar-button {
+    z-index: 3;
+    position: fixed;
+    top: 2%;
+    left: 0%;
+    filter: invert(100%);
+}
+
+.sidenav {
+    height: 100%;
+    width: var(--sidebar-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #232323;
+}
+.sidenav a {
+    text-align: right;
+    display: block;
+    margin-right: 15%;
+    font-size: 15pt;
+}
+.sidenav p {
+    text-align: right;
+    display: block;
+    margin-right: 15%;
+    font-size: 15pt;
+    position: absolute;
+    bottom: 2.5%;
+    right: 0;
+}
+
+.logo {
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 17.5%;
+    margin-bottom: 7.5%;
+}
+.large {
+    font-size: 30pt;
+}
+.medium {
+    font-size: 20pt;
+}
+.small {
+    font-size: 15pt;
+}
+.active {
+    color: lightskyblue;
+}
+.main-body {
+    margin-left: var(--sidebar-width);
+    margin-top: 3%;
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    display: block;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
