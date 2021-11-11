@@ -33,13 +33,13 @@ a:hover {
     text-align: right;
     display: block;
     margin-right: 15%;
-    font-size: 1.25vw;
+    font-size: 15pt;
 }
 .sidenav p {
     text-align: right;
     display: block;
     margin-right: 15%;
-    font-size: 1.25vw;
+    font-size: 15pt;
     position: absolute;
     bottom: 2.5%;
     right: 0;
