@@ -4,6 +4,10 @@ window.onload = function() {
         target = '100%';
         var root = document.querySelector(':root');
         root.style.setProperty('--sidebar-width', '0%');
+        var sidebara = document.querySelector('.sidebar a');
+        sidebara.style.setProperty('font-size', '40pt');
+        var sidebarp = document.querySelector('.sidebar p');
+        sidebarp.style.setProperty('font-size', '40pt');
     }
     var a = document.getElementById('sidebarbutton');
     a.onclick = function() {
