@@ -1,16 +1,16 @@
 .work {
     width: 80%;
     margin-top: 30px;
-    background-color: #00000060;
+    background-color: rgba(0,0,0,0.375);
     min-height: 200px;
 }
 
 .indev {
     background-image: repeating-linear-gradient(-45deg,
-    transparent,
-    transparent 20px,
-    rgba(168, 0, 0, 0.4) 20px,
-    rgba(168, 0, 0, 0.4) 40px);
+    rgba(0,0,0,0.375),
+    rgba(0,0,0,0.375) 20px,
+    rgba(80, 0, 0, 0.375) 20px,
+    rgba(80, 0, 0, 0.375) 40px);
 }
 .work-title {
     padding-left: 20px;
