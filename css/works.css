@@ -31,6 +31,8 @@
     color:white;
     display: block;
     line-height: 1.5;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 .work-link {
     color: lightskyblue;
