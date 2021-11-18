@@ -20,6 +20,7 @@ a:hover {
     top: 2%;
     left: 0%;
     filter: invert(100%);
+    cursor: pointer;
 }
 
 .sidenav {
