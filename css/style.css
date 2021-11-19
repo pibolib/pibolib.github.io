@@ -4,6 +4,7 @@
     --sidebar-width-absolute: 18%;
     --sidebar-width: 0%;
     --sidebar-text-size: 2.5vh;
+    --button-rotate: rotate(90deg);
 }
 
 a {
@@ -21,6 +22,8 @@ a:hover {
     left: 0%;
     filter: invert(100%);
     cursor: pointer;
+    transform: var(--button-rotate);
+    transition: transform 0.3s ease-out;
 }
 
 .sidenav {
