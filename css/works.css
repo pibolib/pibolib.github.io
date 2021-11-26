@@ -3,6 +3,11 @@
     margin-top: 30px;
     background-color: rgba(0,0,0,0.375);
     min-height: 200px;
+    transition: margin-left 0.3s;
+}
+
+.work:hover {
+    margin-left: 5px;
 }
 
 .indev {
