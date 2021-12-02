@@ -82,7 +82,9 @@ a:hover {
 .bg {
     background-color: black;
     background-image: url(../assets/sitebg.png);
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
 }
